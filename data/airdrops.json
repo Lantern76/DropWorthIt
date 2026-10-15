@@ -302,7 +302,7 @@
    "Unknown"
   ],
   "status": "Confirmed campaign, TGE pending",
-  "deadline": "TGE & claims target 2026-10-20 (official whitepaper); XP ends at Season 1 snapshot",
+  "deadline": "TGE & claims target 2026-10-20 (MINT whitepaper); XP ends at Season 1 snapshot",
   "cost": "$50 cumulative wagering",
   "gas": "Unknown",
   "kyc": "Unknown",
@@ -313,15 +313,15 @@
    "Pool 3,787,879 MNTD (~$125K stated); XP does not convert 1:1"
   ],
   "steps": [
-   "Earn XP on mint.io (activity, referrals)",
+   "Earn XP by playing on mint.io (the website listed on MINT's verified X account @PlayOnMint)",
    "Only wager what you can lose; check local laws",
-   "Claim from official site from 2026-10-20"
+   "Claim only via mint.io or links posted by @PlayOnMint, from the 2026-10-20 TGE target"
   ],
   "sources": [
    "https://www.bitrue.com/blog/best-airdrop-october"
   ],
   "verified": "2026-10-15",
-  "official": "https://getminted.io/whitepaper"
+  "official": "https://mint.io"
  },
  {
   "slug": "hyperlynx-lynx",
