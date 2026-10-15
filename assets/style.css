@@ -24,3 +24,6 @@ dl{display:grid;grid-template-columns:max-content 1fr;gap:8px 18px;margin:0}dt{c
 footer{color:var(--muted);font-size:13px;border-top:1px solid var(--line);margin-top:24px}
 @media(max-width:720px){.hide{display:none}dl{grid-template-columns:1fr}dt{margin-top:6px}}
 td time{white-space:nowrap}
+
+.token{font-style:normal}
+.full{width:100%}
