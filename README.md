@@ -29,3 +29,8 @@ See `SPONSORED_POLICY.md` (also shown on submit.html). Verification is mandatory
 
 ## Art placeholders
 `assets/logo.svg`, `assets/favicon.svg` and `assets/og-image.png` (1200x630) are placeholders to be replaced with final art.
+
+## Design note
+Look: "inspector's ledger" (see the Lead Designer's redesign spec). Cream paper slips, rubber-stamp verdicts, slate navy bands, self-hosted Archivo Narrow headings (`assets/fonts/`, OFL). All styling lives in `assets/style.css`; no inline styles or scripts (CSP).
+
+Why this isn't slop: every detail comes from one physical idea, a stamped inspection slip on paper, instead of a stock glossy crypto dashboard.
