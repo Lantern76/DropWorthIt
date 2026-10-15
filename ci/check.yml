@@ -1,3 +1,4 @@
+# Move to .github/workflows/check.yml to enable (pushing workflow files needs a token with the `workflow` scope).
 name: check
 on:
   push:
