@@ -148,40 +148,41 @@
   "chains": [
    "Cardano (redemption)"
   ],
-  "status": "Unknown: official pages blocked our re-check (HTTP 429)",
-  "cost": "Unknown",
+  "status": "Redemption live: NIGHT thaws in four 25% installments, 90 days apart",
+  "cost": "Free (already-claimed allocations only)",
   "gas": "Unknown",
   "kyc": "Unknown",
   "time": "Unknown",
   "risk": "low",
   "riskReasons": [
-   "Details could not be re-verified on official pages",
+   "Unlock schedule differs per wallet; check your own countdown in the portal",
    "Redemption portals are common phishing targets"
   ],
   "steps": [
-   "Go to midnight.network yourself and find the redemption portal link there",
-   "Never use a redemption link from a DM or ad"
+   "Type midnight.gd yourself (named in the official Midnight guide)",
+   "Check your wallet's own thaw countdown",
+   "Redeem each 25% installment as it thaws, or all at once after the last one"
   ],
-  "verified": null,
+  "verified": "2026-10-15",
   "deadlineUTC": null,
   "deadlineDate": null,
   "officialSite": "https://midnight.network/",
   "officialX": null,
   "claimDomain": "midnight.gd",
-  "claimVerified": false,
+  "claimVerified": true,
   "outcome": "Unknown",
   "sponsored": false,
-  "deadlineNote": "Unknown",
-  "claimNote": "Could not re-check on midnight.network (rate-limited)",
-  "eligibility": "Unknown",
+  "deadlineNote": "Varies by wallet: each wallet got a random start date between Dec 10, 2025 and early March 2026, so final unlock dates differ. Grace period: Unknown",
+  "claimNote": "Named as the official Redemption Portal in the Midnight guide on midnight.network",
+  "eligibility": "Glacier Drop and Scavenger Mine claimants",
   "src": {
-   "deadline": null,
-   "claim": null,
-   "eligibility": null,
+   "deadline": "https://midnight.network/blog/guide-to-the-night-token-launch-and-redemption",
+   "claim": "https://midnight.network/blog/guide-to-the-night-token-launch-and-redemption",
+   "eligibility": "https://midnight.network/blog/guide-to-the-night-token-launch-and-redemption",
    "gas": null
   },
-  "verdict": "Maybe",
-  "verdictReason": "Could not re-verify on official pages; check midnight.network yourself.",
+  "verdict": "Do it",
+  "verdictReason": "If you hold an allocation: redeem thawed NIGHT on the official portal.",
   "thirdParty": [
    "https://peoplelikecrypto.com/airdrops/"
   ]
