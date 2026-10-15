@@ -163,13 +163,13 @@
    "Check your wallet's own thaw countdown",
    "Redeem each 25% installment as it thaws, or all at once after the last one"
   ],
-  "verified": "2026-10-15",
+  "verified": null,
   "deadlineUTC": null,
   "deadlineDate": null,
   "officialSite": "https://midnight.network/",
   "officialX": null,
   "claimDomain": "midnight.gd",
-  "claimVerified": true,
+  "claimVerified": false,
   "outcome": "Unknown",
   "sponsored": false,
   "deadlineNote": "Varies by wallet: each wallet got a random start date between Dec 10, 2025 and early March 2026, so final unlock dates differ. Grace period: Unknown",
@@ -181,11 +181,12 @@
    "eligibility": "https://midnight.network/blog/guide-to-the-night-token-launch-and-redemption",
    "gas": null
   },
-  "verdict": "Do it",
-  "verdictReason": "If you hold an allocation: redeem thawed NIGHT on the official portal.",
+  "verdict": "Maybe",
+  "verdictReason": "Details from the official guide via indirect read; awaiting direct check on midnight.network.",
   "thirdParty": [
    "https://peoplelikecrypto.com/airdrops/"
-  ]
+  ],
+  "verifyNote": "details from the official guide via indirect read; awaiting direct check on midnight.network"
  },
  {
   "slug": "brownian-bro",
