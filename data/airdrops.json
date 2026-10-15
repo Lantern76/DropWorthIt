@@ -1,0 +1,366 @@
+[
+ {
+  "slug": "pharos-pros",
+  "project": "Pharos Network",
+  "token": "PROS",
+  "chains": [
+   "Pharos"
+  ],
+  "status": "Claim live",
+  "deadline": "2026-10-25 (official FAQ; Oct 31 figure was a third-party error)",
+  "cost": "Free to claim (if eligible)",
+  "gas": "0.05 PROS, pre-distributed to eligible wallets (official FAQ)",
+  "kyc": "No KYC mentioned; some regions geo-blocked (official FAQ)",
+  "time": "~5 min (claim only)",
+  "risk": "low",
+  "riskReasons": [
+   "Confirmed token, claim-only",
+   "Official deadline 2026-10-25; no grace period",
+   "Phishing lookalikes exist (e.g. 'pharros.xyz'): use only claim.pharos.xyz"
+  ],
+  "steps": [
+   "Type claim.pharos.xyz yourself",
+   "Check eligibility (testnet, Stake Before the Stake, Discord role, OKX Wallet campaign users)",
+   "Claim before 2026-10-25; gas token is pre-sent"
+  ],
+  "sources": [
+   "https://claim.pharos.xyz/faqs",
+   "https://www.bitrue.com/blog/best-airdrop-october",
+   "https://www.coingabbar.com/en/pharos-airdrop-claim-deadline-eligibility-pros-token-update"
+  ],
+  "verified": "2026-10-15",
+  "official": "https://claim.pharos.xyz/faqs"
+ },
+ {
+  "slug": "pheasant-network-pnt",
+  "project": "Pheasant Network",
+  "token": "PNT",
+  "chains": [
+   "Ethereum"
+  ],
+  "status": "Claim live",
+  "deadline": "21 days from 2026-10-06 12:00 UTC (≈2026-10-27, official docs)",
+  "cost": "Free to claim (if eligible)",
+  "gas": "Ethereum mainnet gas (amount Unknown)",
+  "kyc": "Not mentioned in official docs",
+  "time": "~5 min",
+  "risk": "low",
+  "riskReasons": [
+   "Confirmed token, claim-only",
+   "Snapshot already taken (2026-09-08); new users cannot qualify"
+  ],
+  "steps": [
+   "Go to claim.pheasant.network (official claim page)",
+   "Eligible: 19,591 wallets from 2026-09-08 snapshot",
+   "Claim on Ethereum; contract 0x02d54E48eA4dD76a408A7175D466Bb8F578C0e93",
+   "Optional: delay claim for a larger one-time allocation"
+  ],
+  "sources": [
+   "https://docs.pheasant.network/ecosystem/pnt/airdrop/season-1",
+   "https://www.bitrue.com/blog/best-airdrop-october"
+  ],
+  "verified": "2026-10-15",
+  "official": "https://docs.pheasant.network/ecosystem/pnt/airdrop/season-1"
+ },
+ {
+  "slug": "grass-stage-2",
+  "project": "Grass",
+  "token": "USDC (not GRASS)",
+  "chains": [
+   "Grass non-custodial wallet (chain Unknown)"
+  ],
+  "status": "Claim live",
+  "deadline": "2027-01-22",
+  "cost": "Free to claim (if eligible)",
+  "gas": "Small network fee deducted from claimed rewards (official)",
+  "kyc": "Not mentioned; some jurisdictions ineligible",
+  "time": "~5 min",
+  "risk": "low",
+  "riskReasons": [
+   "Confirmed claim window",
+   "Reward is paid in USDC, not GRASS: beware of sites saying otherwise"
+  ],
+  "steps": [
+   "Open app.grass.io/dashboard",
+   "Review rewards on the Allocation page (needed >0 Network Points, Epochs 1-19)",
+   "Confirm claim; USDC arrives in your Grass Wallet before 2027-01-22"
+  ],
+  "sources": [
+   "https://www.grass.io/learn/how-your-stage-2-rewards-allocation-works/",
+   "https://www.bitrue.com/blog/best-airdrop-october",
+   "https://peoplelikecrypto.com/airdrops/"
+  ],
+  "verified": "2026-10-15",
+  "official": "https://www.grass.io/learn/how-your-stage-2-rewards-allocation-works/"
+ },
+ {
+  "slug": "midnight-night",
+  "project": "Midnight",
+  "token": "NIGHT",
+  "chains": [
+   "Cardano (redemption)"
+  ],
+  "status": "Redemption live (thaw 4 of 4)",
+  "deadline": "Thawing ends 2026-12-04; 90-day grace period follows",
+  "cost": "Free (already-claimed allocations only)",
+  "gas": "Cardano transaction fee (amount Unknown)",
+  "kyc": "Unknown",
+  "time": "Unknown",
+  "risk": "low",
+  "riskReasons": [
+   "Confirmed, listed as free",
+   "Grace period after the deadline"
+  ],
+  "steps": [
+   "Use the official portal at midnight.gd/redeem",
+   "Redeem thawed tranches (25% each)",
+   "Only for Glacier Drop / Scavenger Mine claimants; no new entry"
+  ],
+  "sources": [
+   "https://midnight.network/blog/guide-to-the-night-token-launch-and-redemption",
+   "https://peoplelikecrypto.com/airdrops/"
+  ],
+  "verified": "2026-10-15",
+  "official": "https://midnight.network/blog/guide-to-the-night-token-launch-and-redemption"
+ },
+ {
+  "slug": "brownian-bro",
+  "project": "Brownian",
+  "token": "BRO",
+  "chains": [
+   "Orderly Network (omnichain)"
+  ],
+  "status": "Points season live; TGE pending",
+  "deadline": "TGE targeted no later than Q4 2026 (market permitting); final week announced ≥7 days ahead",
+  "cost": "Trading fees",
+  "gas": "Unknown",
+  "kyc": "Unknown",
+  "time": "Ongoing (trading)",
+  "risk": "high",
+  "riskReasons": [
+   "Requires perpetuals trading: you can lose capital",
+   "Conversion method not published until TGE"
+  ],
+  "steps": [
+   "Trade perps on brownian.xyz only with money you can afford to lose",
+   "Earn Brownie Points (10M/week)",
+   "Watch official site for final-week notice"
+  ],
+  "sources": [
+   "https://brownian.xyz/faq",
+   "https://peoplelikecrypto.com/airdrops/"
+  ],
+  "verified": "2026-10-15",
+  "official": "https://brownian.xyz/faq"
+ },
+ {
+  "slug": "push-chain-pc",
+  "project": "Push Chain",
+  "token": "PC",
+  "chains": [
+   "Push Chain (devnet)"
+  ],
+  "status": "Confirmed (10% of supply to airdrops); TGE date not announced",
+  "deadline": "Unknown",
+  "cost": "Free (testnet gas from faucet)",
+  "gas": "Free (faucet)",
+  "kyc": "Unknown",
+  "time": "Unknown",
+  "risk": "low",
+  "riskReasons": [
+   "No capital at risk (testnet)",
+   "Allocation rules Unknown"
+  ],
+  "steps": [
+   "Join the official Push Rewards portal (portal.push.org/rewards)",
+   "Complete testnet quests with a fresh wallet",
+   "Ignore any 'presale' or 'early access' token offers"
+  ],
+  "sources": [
+   "https://push.org/knowledge/tokenomics/",
+   "https://peoplelikecrypto.com/airdrops/"
+  ],
+  "verified": "2026-10-15",
+  "official": "https://push.org/knowledge/tokenomics/"
+ },
+ {
+  "slug": "infinifi-infi",
+  "project": "infiniFi",
+  "token": "INFI",
+  "chains": [
+   "Ethereum",
+   "Base",
+   "Monad"
+  ],
+  "status": "Points program; community airdrop confirmed in tokenomics",
+  "deadline": "Unknown",
+  "cost": "Stablecoin deposit required",
+  "gas": "Ethereum gas (amount Unknown)",
+  "kyc": "Unknown",
+  "time": "Ongoing (deposit)",
+  "risk": "high",
+  "riskReasons": [
+   "Deposits at risk in a fractional-reserve yield protocol",
+   "Not free"
+  ],
+  "steps": [
+   "Read docs.infinifi.xyz risks",
+   "Mint/stake/lock iUSD only if you accept protocol risk",
+   "Track points at app.infinifi.xyz/points"
+  ],
+  "sources": [
+   "https://docs.infinifi.xyz/faq",
+   "https://peoplelikecrypto.com/airdrops/"
+  ],
+  "verified": "2026-10-15",
+  "official": "https://docs.infinifi.xyz/faq"
+ },
+ {
+  "slug": "ink-ink",
+  "project": "Ink",
+  "token": "INK",
+  "chains": [
+   "Ink (Ethereum L2, OP Superchain)"
+  ],
+  "status": "Confirmed via Kraken Drops; rules & dates not published",
+  "deadline": "Unknown",
+  "cost": "Unknown (Kraken Drops may weigh trading volume/holdings)",
+  "gas": "L2 gas (amount Unknown)",
+  "kyc": "Yes: Kraken Drops requires a verified Kraken account",
+  "time": "Unknown",
+  "risk": "med",
+  "riskReasons": [
+   "Requires KYC'd Kraken account",
+   "Final eligibility not published"
+  ],
+  "steps": [
+   "Have a verified Kraken account",
+   "Watch Kraken Drops page for INK criteria",
+   "Ink onchain use may count; not confirmed"
+  ],
+  "sources": [
+   "https://blog.kraken.com/news/integrating-ink-token",
+   "https://peoplelikecrypto.com/airdrops/"
+  ],
+  "verified": "2026-10-15",
+  "official": "https://blog.kraken.com/news/integrating-ink-token"
+ },
+ {
+  "slug": "jumper-jump",
+  "project": "Jumper",
+  "token": "JUMP",
+  "chains": [
+   "Multichain"
+  ],
+  "status": "Token sale ENDED (2026-09-29 to 10-02); airdrop not confirmed",
+  "deadline": "TGE date undisclosed",
+  "cost": "Bridge/swap fees",
+  "gas": "Varies by chain",
+  "kyc": "Sale required KYC/AML; airdrop Unknown",
+  "time": "Ongoing",
+  "risk": "med",
+  "riskReasons": [
+   "No confirmed airdrop; XP only influenced sale priority",
+   "Costs accumulate through bridging/swapping"
+  ],
+  "steps": [
+   "Nothing to do for the ended sale",
+   "Watch official Jumper channels for TGE/airdrop news"
+  ],
+  "sources": [
+   "https://www.globenewswire.com/news-release/2026/09/26/3369413/0/en/jumper-to-launch-jump-token-sale-on-legion-as-it-spins-out-to-build-the-super-app-for-onchain-finance.html",
+   "https://www.bitrue.com/blog/best-airdrop-october"
+  ],
+  "verified": "2026-10-15",
+  "official": "https://www.globenewswire.com/news-release/2026/09/26/3369413/0/en/jumper-to-launch-jump-token-sale-on-legion-as-it-spins-out-to-build-the-super-app-for-onchain-finance.html"
+ },
+ {
+  "slug": "polymarket-poly",
+  "project": "Polymarket",
+  "token": "POLY",
+  "chains": [
+   "Unknown"
+  ],
+  "status": "UNCONFIRMED: official FAQ says no token/airdrop announced",
+  "deadline": "Unknown",
+  "cost": "Trading capital",
+  "gas": "Unknown",
+  "kyc": "Unknown",
+  "time": "Ongoing",
+  "risk": "high",
+  "riskReasons": [
+   "Official FAQ: no airdrop announced; 2025 CMO remark is not an official plan",
+   "Any 'POLY claim' site is likely a scam"
+  ],
+  "steps": [
+   "Do not use any POLY claim site",
+   "Check help.polymarket.com for official updates"
+  ],
+  "sources": [
+   "https://help.polymarket.com/en/articles/13364250-does-polymarket-have-a-token",
+   "https://www.bitrue.com/blog/best-airdrop-october"
+  ],
+  "verified": "2026-10-15",
+  "official": "https://help.polymarket.com/en/articles/13364250-does-polymarket-have-a-token"
+ },
+ {
+  "slug": "mint-mntd",
+  "project": "MINT",
+  "token": "MNTD",
+  "chains": [
+   "Unknown"
+  ],
+  "status": "Confirmed campaign, TGE pending",
+  "deadline": "TGE & claims target 2026-10-20 (official whitepaper); XP ends at Season 1 snapshot",
+  "cost": "$50 cumulative wagering",
+  "gas": "Unknown",
+  "kyc": "Unknown",
+  "time": "Unknown",
+  "risk": "high",
+  "riskReasons": [
+   "Requires wagering (gambling) money",
+   "Pool 3,787,879 MNTD (~$125K stated); XP does not convert 1:1"
+  ],
+  "steps": [
+   "Earn XP on mint.io (activity, referrals)",
+   "Only wager what you can lose; check local laws",
+   "Claim from official site from 2026-10-20"
+  ],
+  "sources": [
+   "https://getminted.io/whitepaper",
+   "https://www.bitrue.com/blog/best-airdrop-october"
+  ],
+  "verified": "2026-10-15",
+  "official": "https://getminted.io/whitepaper"
+ },
+ {
+  "slug": "hyperlynx-lynx",
+  "project": "Hyperlynx",
+  "token": "LYNX",
+  "chains": [
+   "HyperEVM"
+  ],
+  "status": "Live reward campaign (The Hunt)",
+  "deadline": "TGE targeted Q4 2026; full allocation claimable at TGE, no vesting",
+  "cost": "Unknown",
+  "gas": "Unknown",
+  "kyc": "Unknown",
+  "time": "Unknown",
+  "risk": "med",
+  "riskReasons": [
+   "300M LYNX committed, pro rata by points",
+   "Requires depositing assets (HYPE) into a DeFi protocol"
+  ],
+  "steps": [
+   "Use hyperlynx.fi/hunt only",
+   "Earn Hunt points per official docs",
+   "Claim at TGE"
+  ],
+  "sources": [
+   "https://hyperlynx.gitbook.io/hyperlynx-docs/lynx/claiming",
+   "https://airdropbuzz.com/article/confirmed-crypto-airdrops-october-2026"
+  ],
+  "verified": "2026-10-15",
+  "official": "https://hyperlynx.gitbook.io/hyperlynx-docs/lynx/claiming"
+ }
+]
