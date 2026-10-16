@@ -631,5 +631,53 @@
   ],
   "type": "claim-only",
   "costTier": "free"
+ },
+ {
+  "slug": "doppler-xdp-genesis",
+  "project": "Doppler Finance",
+  "token": "XDP Genesis",
+  "chains": [
+   "Base"
+  ],
+  "status": "Claim live",
+  "cost": "Free to claim (if registered and eligible); Base gas needed for the claim transaction",
+  "gas": "Unknown amount; the claim is a transaction you authorize on Base (official claim page)",
+  "kyc": "Unknown",
+  "time": "~5 min (claim only)",
+  "risk": "low",
+  "riskReasons": [
+   "Claim page is linked from Doppler's official site and named in its official blog",
+   "Deadline Nov 28, 2026, 12:00 UTC, stated on the official claim page",
+   "Only the Base wallet you registered can claim; another wallet can't",
+   "Doppler says it may not be available in some jurisdictions"
+  ],
+  "steps": [
+   "Type app.doppler.finance yourself and open the Airdrop page",
+   "Connect the Base wallet you registered during the registration period",
+   "Review your XDP allocation and authorize the claim before Nov 28, 2026, 12:00 UTC"
+  ],
+  "verified": "2026-10-16",
+  "deadlineUTC": "2026-11-28T12:00:00Z",
+  "deadlineDate": null,
+  "officialSite": "https://www.doppler.finance/",
+  "officialX": "https://x.com/doppler_fi",
+  "claimDomain": "app.doppler.finance",
+  "claimVerified": true,
+  "outcome": "Unknown",
+  "sponsored": false,
+  "deadlineNote": "Claim period Sep 28, 2026, 11:59 UTC to Nov 28, 2026, 12:00 UTC; unclaimed allocations expire",
+  "claimNote": "Claim at app.doppler.finance/airdrop, linked from Doppler's official site and named as the official portal in its blog",
+  "eligibility": "Users who qualified through Doppler Points Season 1 and 2 or other Genesis criteria and registered a Base wallet during the registration period",
+  "src": {
+   "deadline": "https://app.doppler.finance/airdrop",
+   "claim": "https://blog.doppler.finance/blog/xdp-genesis-airdrop-registration",
+   "eligibility": "https://blog.doppler.finance/blog/xdp-genesis-airdrop-registration",
+   "gas": "https://app.doppler.finance/airdrop"
+  },
+  "verdict": "Do it",
+  "verdictReason": "Free claim if you registered a Base wallet in time; claim page and deadline confirmed by Doppler.",
+  "thirdParty": [],
+  "type": "claim-only",
+  "costTier": "free"
  }
 ]
