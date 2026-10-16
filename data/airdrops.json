@@ -8,8 +8,8 @@
   ],
   "status": "Claim live",
   "cost": "Free to claim (if eligible)",
-  "gas": "0.05 PROS, pre-distributed to eligible wallets (official FAQ)",
-  "kyc": "No KYC mentioned; some regions geo-blocked (official FAQ)",
+  "gas": "0.05 PROS, pre-distributed to eligible wallets (self-published FAQ, unconfirmed domain)",
+  "kyc": "No KYC mentioned; some regions geo-blocked (self-published FAQ, unconfirmed domain)",
   "time": "~5 min (claim only)",
   "risk": "low",
   "riskReasons": [

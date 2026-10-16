@@ -79,3 +79,8 @@ footer{background:var(--slate);color:var(--cream);font-size:13px;margin-top:28px
 header nav{display:flex;gap:18px;flex-wrap:wrap;align-items:center}header nav a{display:inline-block;padding:10px 0;min-height:24px}
 b.dnv{color:var(--danger);font-size:.85em;margin-left:4px}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
+/* claim-link checker */
+.ck label{display:block;font-weight:600;margin-bottom:6px}.ckrow{display:flex;gap:8px}.ckrow input{flex:1;min-height:44px;font-family:var(--mono)}.ckrow button{min-height:44px;padding:0 18px}
+.ck-result h2{margin-top:0;font-size:1.1rem}.ck-result.ok{border-left:4px solid var(--doit)}.ck-result.warn{border-left:4px solid var(--maybe)}.ck-result.bad{border-left:4px solid var(--danger);background:#f6e3df;color:#4a1a15}
+.tw{overflow-x:auto}table{border-collapse:collapse;width:100%}th,td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line);vertical-align:top}thead th{color:var(--muted);font-weight:600;font-size:.85em}
+@media(max-width:640px){.ckrow{flex-direction:column}}
