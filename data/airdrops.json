@@ -775,5 +775,101 @@
   "thirdParty": [],
   "type": "claim-only",
   "costTier": "free"
+ },
+ {
+  "slug": "solstice-slx-s2",
+  "project": "Solstice",
+  "token": "SLX Season 2",
+  "chains": [
+   "Solana"
+  ],
+  "status": "Claim live",
+  "cost": "Claim fee of about $1 (official docs); vesting unlocks daily",
+  "gas": "Unknown; the docs state only the claim fee of about $1",
+  "kyc": "Unknown",
+  "time": "~5 min per claim; return to claim each unlock",
+  "risk": "med",
+  "riskReasons": [
+   "Claim window, fee and vesting are on Solstice's official docs",
+   "Claiming costs a fee of about $1 (official docs); wallets with less than 1 SLX can't claim, so check your allocation on the Flares dashboard first",
+   "On the 6-month plan, unvested SLX is forfeited if your eligible TVL isn't restored (official docs)",
+   "Date-only deadline Jan 10, 2027; no time of day stated"
+  ],
+  "steps": [
+   "Type app.solstice.finance yourself and check your Season 2 allocation on the Flares dashboard",
+   "Open the Claims Portal from the app with the wallet that earned the Flares",
+   "Claim unlocked SLX now, and come back for later unlocks before Jan 10, 2027"
+  ],
+  "verified": "2026-10-16",
+  "deadlineUTC": null,
+  "deadlineDate": "2027-01-10",
+  "officialSite": "https://solstice.finance/",
+  "officialX": "https://x.com/solsticefi",
+  "claimDomain": "app.solstice.finance",
+  "claimVerified": true,
+  "outcome": "Unknown",
+  "sponsored": false,
+  "deadlineNote": "Season 2 claims opened Aug 10, 2026 and close Jan 10, 2027; the docs list most times as 9pm SGT but give no time for the close",
+  "claimNote": "The official docs say to open the Claims Portal from the Solstice app at app.solstice.finance",
+  "eligibility": "Wallets that earned Season 2 Flares (season ended Aug 1, 2026) with an allocation of at least 1 SLX; the vesting plan choice closed Aug 18, 2026",
+  "src": {
+   "deadline": "https://docs.solstice.finance/solstice-for-users/flares/claims-and-vesting/season-2-claims-and-vesting",
+   "claim": "https://docs.solstice.finance/solstice-for-users/flares/claims-and-vesting",
+   "eligibility": "https://docs.solstice.finance/solstice-for-users/flares/claims-and-vesting/season-2-claims-and-vesting",
+   "gas": "https://docs.solstice.finance/solstice-for-users/flares/claims-and-vesting/season-2-claims-and-vesting"
+  },
+  "verdict": "Maybe",
+  "verdictReason": "Real claim confirmed in Solstice's docs, but the about-$1 fee may exceed small allocations, and the 6-month plan can forfeit unvested SLX.",
+  "thirdParty": [],
+  "type": "claim-only",
+  "costTier": "small-fee"
+ },
+ {
+  "slug": "concrete-ct",
+  "project": "Concrete",
+  "token": "CT",
+  "chains": [
+   "Ethereum"
+  ],
+  "status": "Claim live",
+  "cost": "No claim charge stated; you pay network gas (self-published claim terms, unconfirmed domain)",
+  "gas": "Unknown amount; gas is paid to the network, not to Concrete (self-published claim terms, unconfirmed domain)",
+  "kyc": "Unknown",
+  "time": "~5 min (claim only)",
+  "risk": "med",
+  "riskReasons": [
+   "The claim site is on a different domain (concretefoundation.xyz) from the project's concrete.xyz, and Concrete hasn't confirmed it on concrete.xyz or X",
+   "Deadline Unknown: the claim terms say the claim period is shown only inside the claim interface",
+   "Concrete may pause or deny a claim without notice (self-published claim terms, unconfirmed domain)",
+   "Restricted jurisdictions can't claim, and the terms ban VPNs"
+  ],
+  "steps": [
+   "Don't use concretefoundation.xyz until Concrete confirms it as the claim site on concrete.xyz or @ConcreteXYZ",
+   "Read the Claim Terms, then connect the wallet on the eligibility list",
+   "Check the claim period shown in the interface, and confirm the claim on Ethereum"
+  ],
+  "verified": "2026-10-16",
+  "deadlineUTC": null,
+  "deadlineDate": null,
+  "officialSite": "https://concrete.xyz/",
+  "officialX": "https://x.com/ConcreteXYZ",
+  "claimDomain": "concretefoundation.xyz",
+  "claimVerified": false,
+  "outcome": "Unknown",
+  "sponsored": false,
+  "deadlineNote": "Not published; the claim terms say the period and deadline appear in the claim interface",
+  "claimNote": "claim site is off concrete.xyz; named as the claim site only on concretefoundation.xyz itself",
+  "eligibility": "Only wallets on Concrete's CT eligibility and allocation list; people in restricted jurisdictions are excluded",
+  "src": {
+   "deadline": "https://concretefoundation.xyz/claim-terms",
+   "claim": "https://concretefoundation.xyz/claim-terms",
+   "eligibility": "https://concretefoundation.xyz/claim-terms",
+   "gas": "https://concretefoundation.xyz/claim-terms"
+  },
+  "verdict": "Maybe",
+  "verdictReason": "Real claim per Concrete's own terms, but the off-domain claim site isn't confirmed on concrete.xyz and no deadline is published.",
+  "thirdParty": [],
+  "type": "claim-only",
+  "costTier": "free"
  }
 ]
