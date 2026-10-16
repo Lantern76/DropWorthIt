@@ -84,3 +84,6 @@ b.dnv{color:var(--danger);font-size:.85em;margin-left:4px}
 .ck-result h2{margin-top:0;font-size:1.1rem}.ck-result.ok{border-left:4px solid var(--doit)}.ck-result.warn{border-left:4px solid var(--maybe)}.ck-result.bad{border-left:4px solid var(--danger);background:#f6e3df;color:#4a1a15}
 .tw{overflow-x:auto}table{border-collapse:collapse;width:100%}th,td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line);vertical-align:top}thead th{color:var(--muted);font-weight:600;font-size:.85em}
 @media(max-width:640px){.ckrow{flex-direction:column}}
+/* XRP scam watch */
+.lede{font-size:1.05rem}.xw h3{margin:2px 0 8px;font-size:1.15rem}.xd{margin:0;font-family:var(--mono);color:var(--muted);font-size:.85rem}.xl{border-top:1px solid var(--line);padding-top:8px}.xs{padding-left:18px}.xs li{margin:4px 0}
+@media(max-width:640px){header{row-gap:4px}header nav{gap:0 18px}}
