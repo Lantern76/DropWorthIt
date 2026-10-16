@@ -22,7 +22,7 @@ main,.topnote{max-width:1040px;margin:auto;padding:12px 16px}
 .badge.risk{color:var(--muted);border:1px solid var(--line)}.badge.risk.high{color:var(--danger);border-color:var(--danger)}
 .badge.recheck{color:#8a5f0f;border:1px dashed var(--maybe)}
 .unknown{color:var(--muted);font-style:italic}
-.verified{color:var(--doit-dark);font-size:.85em;margin-left:6px;font-weight:600}.verified::before{content:"✓ "}
+.verified{color:var(--doit-dark);font-size:.85em;margin-left:6px;font-weight:600;white-space:nowrap}.verified::before{content:"✓ "}
 .unverified{color:var(--muted);font-size:.85em;margin-left:6px;font-style:italic}
 .callout{border-left:4px solid var(--danger);background:#f6e3df;color:#4a1a15;padding:10px 14px;border-radius:4px;margin:16px 0}
 .sponsored{border:1px dashed var(--sponsor)!important}.sponsored::before{content:"Sponsored";color:var(--sponsor);font-size:.75em;text-transform:uppercase;letter-spacing:.08em}
