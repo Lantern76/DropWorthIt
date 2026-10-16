@@ -4,6 +4,15 @@
  "entries": [
   {
    "date": "2026-10-16",
+   "slug": "meteora-met-s2",
+   "field": "Listing",
+   "from": "(not listed)",
+   "to": "Added: Do it, claim live until Oct 21",
+   "why": "Season 2 claim confirmed on Meteora's official X, forum and Campaigns page.",
+   "commit": "3cedb22"
+  },
+  {
+   "date": "2026-10-16",
    "slug": "pharos-pros",
    "field": "KYC and gas labels",
    "from": "(official FAQ)",
