@@ -2,7 +2,7 @@
 const fs=require('fs');
 const N='DropWorthIt',BASE='https://maple956.github.io/dropworthit/',O='dist',NOW=new Date(process.env.BUILD_NOW||Date.now()),RECHECK_DAYS=7;
 const D=JSON.parse(fs.readFileSync(process.env.DATA_FILE||'data/airdrops.json'));
-const TY={'claim-only':'Claim only','tasks':'Tasks / points','deposit-or-trade':'Deposit, trade or wager','watch-only':'Watch only (nothing to claim yet)'},CT2={free:'Free',"small-fee":'Small fee (~$1)',"money-at-risk":'Your money at risk',unknown:'Cost unknown'};
+const TY={'claim-only':'Claim only','tasks':'Tasks / points','deposit-or-trade':'Deposit, trade or wager','watch-only':'Watch only (nothing to claim yet)'},CT2={free:'Free',"small-fee":'Small fee',"money-at-risk":'Your money at risk',unknown:'Cost unknown'};
 const CL=JSON.parse(fs.readFileSync('data/changelog.json','utf8'));
 const V={'Do it':['doit','✓'],'Maybe':['maybe','◐'],'Skip':['skip','✕']},RK={low:'●',med:'▲',high:'■'};
 // Validation: runs before any output is written; collects every error, then exits non-zero.
