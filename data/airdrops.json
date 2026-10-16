@@ -679,5 +679,53 @@
   "thirdParty": [],
   "type": "claim-only",
   "costTier": "free"
+ },
+ {
+  "slug": "treehouse-tree-s2",
+  "project": "Treehouse",
+  "token": "TREE Season 2",
+  "chains": [
+   "Ethereum"
+  ],
+  "status": "Claim live",
+  "cost": "Free to claim (if eligible); Ethereum mainnet gas needed",
+  "gas": "Standard Ethereum mainnet gas; amount not stated (official FAQ)",
+  "kyc": "Unknown",
+  "time": "~5 min (claim only)",
+  "risk": "low",
+  "riskReasons": [
+   "Claim site, dates and contracts are listed on Treehouse's official docs",
+   "Claim on a separate domain (gaiafoundation.xyz), named only in the official docs: type it yourself",
+   "Claiming before vesting ends, around Oct 26, 2026 07:00 UTC, forfeits the unvested part (official FAQ)",
+   "You must claim from the eligible wallet itself"
+  ],
+  "steps": [
+   "Type gaiafoundation.xyz yourself; check it matches the Claim URL in Treehouse's official docs",
+   "Wait until vesting completes (around Oct 26, 2026, 07:00 UTC) if you want the full amount; an earlier claim gives up the unvested part",
+   "Connect your eligible wallet and sign the claim before Nov 25, 2026, 07:00 UTC"
+  ],
+  "verified": "2026-10-16",
+  "deadlineUTC": "2026-11-25T07:00:00Z",
+  "deadlineDate": null,
+  "officialSite": "https://www.treehouse.finance/",
+  "officialX": "https://x.com/TreehouseFi",
+  "claimDomain": "gaiafoundation.xyz",
+  "claimVerified": true,
+  "outcome": "Unknown",
+  "sponsored": false,
+  "deadlineNote": "Claim window 29 April to 25 November 2026, 07:00 UTC; unclaimed TREE returns to the Treehouse treasury",
+  "claimNote": "gaiafoundation.xyz is listed as the Claim URL on the Key Information page of Treehouse's official docs",
+  "eligibility": "Wallets with at least 500 Nuts at the 25 April 2026 snapshot, a Treehouse Squirrel Council NFT at the snapshot, or a Season 2 vote on treehouse.eth",
+  "src": {
+   "deadline": "https://docs.treehouse.finance/protocol/tree-token/airdrop-details-s2/faq/wallets-and-claiming",
+   "claim": "https://docs.treehouse.finance/protocol/tree-token/airdrop-details-s2/key-information",
+   "eligibility": "https://docs.treehouse.finance/protocol/tree-token/airdrop-details-s2/eligibility-criteria",
+   "gas": "https://docs.treehouse.finance/protocol/tree-token/airdrop-details-s2/faq/wallets-and-claiming"
+  },
+  "verdict": "Do it",
+  "verdictReason": "Free claim if eligible; claim site, deadline and vesting confirmed in Treehouse's official docs. Wait for vesting to finish to get the full amount.",
+  "thirdParty": [],
+  "type": "claim-only",
+  "costTier": "free"
  }
 ]
