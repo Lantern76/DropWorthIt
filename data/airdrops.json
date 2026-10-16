@@ -822,7 +822,7 @@
   "verdictReason": "Real claim confirmed in Solstice's docs, but the about-$1 fee may exceed small allocations, and the 6-month plan can forfeit unvested SLX.",
   "thirdParty": [],
   "type": "claim-only",
-  "costTier": "money-at-risk"
+  "costTier": "small-fee"
  },
  {
   "slug": "concrete-ct",
