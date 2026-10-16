@@ -93,4 +93,3 @@ b.dnv{color:var(--danger);font-size:.85em;margin-left:4px}
 .vh{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
 /* change log */
 .cl ul{padding-left:18px}.cl li{margin:8px 0}.cl .from{text-decoration:line-through;color:var(--muted)}.cl .to{font-weight:600}.cl h2 time{font-family:var(--mono)}
-.vh{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
