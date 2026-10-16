@@ -2,6 +2,7 @@
  "version": 1,
  "note": "Public record of changes to drop verdicts, statuses, claim domains and safety notes. Reconstructed from the repository history for 2026-10-15 and 2026-10-16; each entry names the commit that made it.",
  "entries": [
+  {"date": "2026-10-16", "slug": "drift-dfx", "field": "Listing", "from": "(not listed)", "to": "Added: Do it, claim live until Dec 31, 2027 (CST)", "why": "DFX claim portal, window and eligibility confirmed in Drift's official update.", "commit": "61c79c8"},
   {"date": "2026-10-16", "slug": "solstice-slx-s2", "field": "Listing", "from": "(not listed)", "to": "Added: Maybe, claim live until Jan 10, 2027", "why": "Season 2 claim window, fee and vesting confirmed in Solstice's official docs.", "commit": "02aad91"},
   {"date": "2026-10-16", "slug": "concrete-ct", "field": "Listing", "from": "(not listed)", "to": "Added: Maybe, claim live, deadline Unknown", "why": "Listed with the claim site unverified: concretefoundation.xyz names itself as the claim site but concrete.xyz doesn't; no deadline published.", "commit": "02aad91"},
   {"date": "2026-10-16", "slug": "lombard-bard-s3", "field": "Listing", "from": "(not listed)", "to": "Added: Do it, claim live until Oct 28 (CDT)", "why": "Season 3 claim site, window and eligibility confirmed in Lombard's official docs.", "commit": "922fce7"},
