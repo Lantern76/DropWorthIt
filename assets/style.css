@@ -1,7 +1,7 @@
 /* DropWorthIt: inspector's ledger. 60% cream paper, 30% slate navy, 10% stamp ink. */
 @font-face{font-family:"Archivo Narrow";src:url(fonts/ArchivoNarrow.ttf) format("truetype");font-weight:400 700;font-display:swap}
 :root{--paper:#f3ecdc;--card:#fbf6ea;--ink:#1f2a33;--muted:#5f6670;--line:#d9cfba;--slate:#22303c;--cream:#f3ecdc;
---doit:#1f8f7f;--maybe:#c08a1e;--skip:#7d7468;--danger:#b8382e;--sponsor:#4b56a8;--accent:#1f6f66;
+--doit:#1f8f7f;--doit-dark:#1f6b5c;--maybe:#c08a1e;--skip:#7d7468;--danger:#b8382e;--sponsor:#4b56a8;--accent:#1f6f66;
 --head:"Archivo Narrow","Arial Narrow",system-ui,sans-serif;--mono:ui-monospace,Menlo,Consolas,monospace;font-family:system-ui,-apple-system,sans-serif}
 *{box-sizing:border-box}
 body{margin:0;background:var(--paper);color:var(--ink);line-height:1.55;position:relative}
@@ -22,7 +22,7 @@ main,.topnote{max-width:1040px;margin:auto;padding:12px 16px}
 .badge.risk{color:var(--muted);border:1px solid var(--line)}.badge.risk.high{color:var(--danger);border-color:var(--danger)}
 .badge.recheck{color:#8a5f0f;border:1px dashed var(--maybe)}
 .unknown{color:var(--muted);font-style:italic}
-.verified{color:var(--doit);font-size:.85em;margin-left:6px;font-weight:600}.verified::before{content:"✓ "}
+.verified{color:var(--doit-dark);font-size:.85em;margin-left:6px;font-weight:600}.verified::before{content:"✓ "}
 .unverified{color:var(--muted);font-size:.85em;margin-left:6px;font-style:italic}
 .callout{border-left:4px solid var(--danger);background:#f6e3df;color:#4a1a15;padding:10px 14px;border-radius:4px;margin:16px 0}
 .sponsored{border:1px dashed var(--sponsor)!important}.sponsored::before{content:"Sponsored";color:var(--sponsor);font-size:.75em;text-transform:uppercase;letter-spacing:.08em}
@@ -48,7 +48,7 @@ dl{display:grid;grid-template-columns:max-content 1fr;gap:8px 18px;margin:0}dt{c
 .big{font-family:var(--mono);font-size:1.12rem;font-weight:600}.utc{font-family:var(--mono);color:var(--muted);font-size:.78rem;margin-left:4px}
 .nc{margin:2px 0;color:var(--muted);font-style:italic;font-size:.9em}
 .sf{margin-top:auto;padding-top:8px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:.85em}
-.tag{font-size:.78em;color:var(--doit);border:1px solid var(--line);padding:0 6px;border-radius:3px;text-decoration:none}.tag.none{color:var(--muted);font-style:italic}
+.tag{font-size:.78em;color:var(--doit-dark);border:1px solid var(--line);padding:0 6px;border-radius:3px;text-decoration:none}.tag.none{color:var(--muted);font-style:italic}
 .slip.head{margin:16px 0}.slip.head h1{margin:.2em 0}
 /* worth it this week */
 .week{background:var(--slate);color:var(--cream);padding:6px max(16px,calc(50% - 504px)) 22px;border-top:1px solid #34444f}
@@ -88,7 +88,7 @@ b.dnv{color:var(--danger);font-size:.85em;margin-left:4px}
 .lede{font-size:1.05rem}.xw h3{margin:2px 0 8px;font-size:1.15rem}.xd{margin:0;font-family:var(--mono);color:var(--muted);font-size:.85rem}.xl{border-top:1px solid var(--line);padding-top:8px}.xs{padding-left:18px}.xs li{margin:4px 0}
 @media(max-width:640px){header{row-gap:4px}header nav{gap:0 18px}}
 /* type + cost filter */
-.kind{margin:0;font-size:.88em}.kt{font-weight:600}.kc.money-at-risk{color:var(--danger);font-weight:600}.kc.unknown{color:var(--muted);font-style:italic}.kc.free{color:var(--doit);font-weight:600}
+.kind{margin:0;font-size:.88em}.kt{font-weight:600}.kc.money-at-risk{color:var(--danger);font-weight:600}.kc.unknown{color:var(--muted);font-style:italic}.kc.free{color:var(--doit-dark);font-weight:600}
 /* small fee: ochre marker, ink text (ochre text alone is under 4.5:1) */
 .kc.small-fee{color:var(--ink);font-weight:600;border-bottom:2px solid var(--maybe)}
 .filters select,.filters input{min-height:44px}
