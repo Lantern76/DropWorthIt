@@ -832,15 +832,15 @@
    "Ethereum"
   ],
   "status": "Claim live",
-  "cost": "No claim charge stated; you pay network gas (official claim terms)",
-  "gas": "Unknown amount; gas is paid to the network, not to Concrete (official claim terms)",
+  "cost": "No claim charge stated; you pay network gas (self-published claim terms, unconfirmed domain)",
+  "gas": "Unknown amount; gas is paid to the network, not to Concrete (self-published claim terms, unconfirmed domain)",
   "kyc": "Unknown",
   "time": "~5 min (claim only)",
   "risk": "med",
   "riskReasons": [
-   "The claim site is on a different domain (concretefoundation.xyz) from the project's concrete.xyz; type it yourself",
+   "The claim site is on a different domain (concretefoundation.xyz) from the project's concrete.xyz, and Concrete hasn't confirmed it on concrete.xyz or X",
    "Deadline Unknown: the claim terms say the claim period is shown only inside the claim interface",
-   "Concrete may pause or deny a claim without notice (official claim terms)",
+   "Concrete may pause or deny a claim without notice (self-published claim terms, unconfirmed domain)",
    "Restricted jurisdictions can't claim, and the terms ban VPNs"
   ],
   "steps": [
