@@ -102,3 +102,4 @@ b.dnv{color:var(--danger);font-size:.85em;margin-left:4px}
 .monster{position:relative;margin:0;border-top:3px solid var(--slate)}.monster .stamp{position:absolute;top:12px;right:12px}.monster h2{margin:0 90px 10px 0;font-size:1.15rem}.monster h2 .num{color:var(--danger);font-family:var(--mono)}
 .monster dl{grid-template-columns:1fr}.monster dt{margin-top:6px;font-size:.85em;text-transform:uppercase;letter-spacing:.05em}.monster dd b{color:#4a1a15}
 .hw-banner{border-left:4px solid var(--slate);margin-top:0}
+.monster.boss{grid-column:1/-1;border-top:3px solid var(--danger)}.monster.boss h2::after{content:" · final boss";color:var(--danger);font-family:var(--mono);font-size:.8rem;text-transform:none;letter-spacing:0}
