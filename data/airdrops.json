@@ -582,5 +582,54 @@
   ],
   "type": "tasks",
   "costTier": "unknown"
+ },
+ {
+  "slug": "meteora-met-s2",
+  "project": "Meteora",
+  "token": "MET (LP Stimulus Season 2)",
+  "chains": [
+   "Solana"
+  ],
+  "status": "Claim live",
+  "cost": "Free to claim (if eligible); Solana gas needed",
+  "gas": "Typically ~0.02 SOL, plus a little SOL to create the MET token account (official FAQ)",
+  "kyc": "Unknown",
+  "time": "~5 min (claim only)",
+  "risk": "low",
+  "riskReasons": [
+   "Confirmed by Meteora's official X, site and forum",
+   "Date-only deadline Oct 21, 2026 (UTC); no time of day stated",
+   "Fake claim sites are common on Solana: use only the campaigns page on Meteora's own site"
+  ],
+  "steps": [
+   "Type meteora.ag yourself and open the Campaigns page",
+   "Check whether your wallet is eligible (at least 100,000 points and 10 MET; LPs on eligible DLMM and DAMM v2 pools)",
+   "Keep some SOL for gas, then select \"Claim MET\" before Oct 21, 2026 (UTC)"
+  ],
+  "verified": "2026-10-16",
+  "deadlineUTC": null,
+  "deadlineDate": "2026-10-21",
+  "officialSite": "https://www.meteora.ag/",
+  "officialX": "https://x.com/MeteoraAG",
+  "claimDomain": "meteora.ag",
+  "claimVerified": true,
+  "outcome": "Unknown",
+  "sponsored": false,
+  "deadlineNote": "Claim period 21 July to 21 October 2026 (UTC); no time of day stated",
+  "claimNote": "Claim on the Campaigns page of meteora.ag, named as 'Where to Claim' in Meteora's official forum post",
+  "eligibility": "Season 2 liquidity providers on eligible DLMM and DAMM v2 pools with at least 100,000 points and an allocation of at least 10 MET; smaller allocations are forfeited",
+  "src": {
+   "deadline": "https://x.com/MeteoraAG/status/2079506679268553016",
+   "claim": "https://proposals.meteora.ag/t/meteora-lp-stimulus-season-2/3357",
+   "eligibility": "https://proposals.meteora.ag/t/meteora-lp-stimulus-season-2/3357",
+   "gas": "https://docs.meteora.ag/protocol/met/faq"
+  },
+  "verdict": "Do it",
+  "verdictReason": "Free claim if you were an eligible Season 2 LP; deadline and claim page confirmed by Meteora.",
+  "thirdParty": [
+   "https://cryptoticker.io/en/crypto-airdrops-week-42-2026-deadlines/"
+  ],
+  "type": "claim-only",
+  "costTier": "free"
  }
 ]
