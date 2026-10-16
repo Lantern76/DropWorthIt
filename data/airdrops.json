@@ -696,13 +696,13 @@
   "riskReasons": [
    "Claim site, dates and contracts are listed on Treehouse's official docs",
    "Claim on a separate domain (gaiafoundation.xyz), named only in the official docs: type it yourself",
-   "Claiming before vesting ends, around Oct 26, 2026 07:00 UTC, forfeits the unvested part (official FAQ)",
+   "Claiming before vesting ends, around Oct 26, 2026, 2:00 AM CDT (07:00 UTC), forfeits the unvested part (official FAQ)",
    "You must claim from the eligible wallet itself"
   ],
   "steps": [
    "Type gaiafoundation.xyz yourself; check it matches the Claim URL in Treehouse's official docs",
-   "Wait until vesting completes (around Oct 26, 2026, 07:00 UTC) if you want the full amount; an earlier claim gives up the unvested part",
-   "Connect your eligible wallet and sign the claim before Nov 25, 2026, 07:00 UTC"
+   "Wait until vesting completes (around Oct 26, 2026, 2:00 AM CDT (07:00 UTC)) if you want the full amount; an earlier claim gives up the unvested part",
+   "Connect your eligible wallet and sign the claim before Nov 25, 2026, 1:00 AM CST (07:00 UTC)"
   ],
   "verified": "2026-10-16",
   "deadlineUTC": "2026-11-25T07:00:00Z",
