@@ -1,0 +1,22 @@
+{
+ "version": 1,
+ "season": {"title": "Spooky scam drops", "endsCT": "2026-10-31"},
+ "officialAccounts": [
+  {"org": "An Garda Síochána", "x": "gardainfo", "site": "garda.ie"},
+  {"org": "Xaman Wallet", "x": "XamanWallet", "site": "xaman.app"},
+  {"org": "Ripple (RippleX)", "x": "RippleXDev", "site": "ripple.com"},
+  {"org": "Pheasant Network", "x": "PheasantNetwork", "site": "pheasant.network"},
+  {"org": "MINT", "x": "PlayOnMint", "site": "mint.io"},
+  {"org": "Jumper", "x": "jumperapp", "site": "jumper.exchange"},
+  {"org": "Grass", "x": "grass", "site": "grass.io"}
+ ],
+ "monsters": [
+  {"name": "The Body Snatcher", "looksLike": "A big, trusted, verified account suddenly posts about free crypto and tags you.", "real": "Ireland's police confirmed in October 2026 that two of its official X accounts were accessed by a third party, and warned people not to interact with anything posted on them.", "banish": "A blue tick isn't proof. Never connect a wallet from a post you were tagged in.", "source": {"label": "Garda statement, Oct 15, 2026", "url": "https://www.garda.ie/en/about-us/our-departments/office-of-corporate-communications/press-releases/2026/october/15-10-2026-statement-an-garda-siochana-x-accounts.html"}},
+  {"name": "The Ghost Airdrop", "looksLike": "An \"official airdrop\" from a wallet app or company that has never run one.", "real": "Xaman Wallet says it will never DM you, never email you, and never issue a token or an airdrop.", "banish": "If the company says it never airdrops, every airdrop in its name is fake.", "source": {"label": "Xaman Wallet on X, Aug 2, 2026", "url": "https://x.com/XamanWallet/status/2083998460135514497"}},
+  {"name": "The Fortune Teller", "looksLike": "\"Scan your wallet to find unclaimed tokens.\"", "real": "RippleX says Ripple is not running an \"XRP Rewards Scanner\" or offering unclaimed XRP through a wallet scan, and that screenshots saying otherwise are fake.", "banish": "Never let a site \"scan\" your wallet. Review every transaction before you sign it.", "source": {"label": "RippleX on X, Aug 6, 2026", "url": "https://x.com/RippleXDev/status/2085402578922160445"}},
+  {"name": "The Doppelgänger", "looksLike": "A claim site that looks exactly like the real one, on an address that's slightly off.", "real": "When its PNT claim opened, Pheasant Network warned that fake websites had been discovered and asked users to verify the website link.", "banish": "Type the claim domain yourself, letter by letter. Use our claim-link checker, and remember \"not in our list\" never means safe.", "source": {"label": "Pheasant Network on X, Oct 6, 2026", "url": "https://x.com/PheasantNetwork/status/2107448706052321604"}},
+  {"name": "The Swarm", "looksLike": "Replies under a real launch post, full of \"claim here\" links.", "real": "Jumper warned of large amounts of scam links around its sale and told people to use only the official platform.", "banish": "Links in replies and DMs are never the official link. Go to the project's own site.", "source": {"label": "Jumper on X, Sep 29, 2026", "url": "https://x.com/jumperapp/status/2104931440228266017"}},
+  {"name": "The Mimic", "looksLike": "A \"collection\" or token that appears before the project has announced anything.", "real": "MINT warned that fake collections were already popping up on OpenSea, and said it will announce official mint details clearly and never stealth launch.", "banish": "If the project hasn't announced it on its official channels, it isn't real yet.", "source": {"label": "MINT on X, Oct 8, 2026", "url": "https://x.com/PlayOnMint/status/2108188926007534039"}},
+  {"name": "The Soul Collector", "looksLike": "Any page or \"support agent\" that asks for your seed phrase or private key.", "real": "Grass tells users to never share a seed phrase or private key with anyone, and to download only from grass.io.", "banish": "Nobody legitimate ever needs your seed phrase. Close the page.", "source": {"label": "Grass: Is Grass safe?", "url": "https://www.grass.io/learn/is-grass-safe-what-the-app-accesses-and-what-it-never-touches/"}}
+ ]
+}
