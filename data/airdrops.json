@@ -592,14 +592,14 @@
   ],
   "status": "Claim live",
   "cost": "Free to claim (if eligible); Solana gas needed",
-  "gas": "Typically ~0.02 SOL, plus a little SOL to create the MET token account (official FAQ)",
+  "gas": "Typically ~0.02 SOL, plus a little SOL to create the MET token account (official FAQ, written for the original MET claim)",
   "kyc": "Unknown",
   "time": "~5 min (claim only)",
   "risk": "low",
   "riskReasons": [
    "Confirmed by Meteora's official X, site and forum",
    "Date-only deadline Oct 21, 2026 (UTC); no time of day stated",
-   "Fake claim sites are common on Solana: use only the campaigns page on Meteora's own site"
+   "Lookalike claim sites exist for most drops: use only the Campaigns page on Meteora's own site"
   ],
   "steps": [
    "Type meteora.ag yourself and open the Campaigns page",
