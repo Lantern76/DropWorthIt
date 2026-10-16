@@ -1,6 +1,23 @@
 {
  "version": 1,
  "checked": "2026-10-16",
+ "officialAccounts": [
+  {
+   "org": "An Garda Síochána",
+   "x": "gardainfo",
+   "site": "garda.ie"
+  },
+  {
+   "org": "Ripple (RippleX)",
+   "x": "RippleXDev",
+   "site": "ripple.com"
+  },
+  {
+   "org": "Xaman Wallet",
+   "x": "XamanWallet",
+   "site": "xaman.app"
+  }
+ ],
  "xrplDrops": [],
  "entries": [
   {
@@ -9,10 +26,26 @@
    "summary": "An Garda Síochána (Ireland's police) confirmed unauthorised access to its X accounts @gardainfo and @gardatraffic and warned the public not to interact with anything posted on them, or on accounts pretending to be them. The Irish Times reports @GardaInfo was rebranded to look like a crypto wallet's support account and posted scores of crypto posts. Garda regained control on Oct 15; the accounts stay inactive while the Garda National Cyber Crime Bureau investigates.",
    "lesson": "A verified account with a trusted name can still be hijacked. A blue tick is not proof. Never connect a wallet from a post you were tagged in.",
    "sources": [
-    {"label": "Garda statement, Oct 15, 2026", "url": "https://www.garda.ie/en/about-us/our-departments/office-of-corporate-communications/press-releases/2026/october/15-10-2026-statement-an-garda-siochana-x-accounts.html", "kind": "official"},
-    {"label": "Garda update statement, Oct 15, 2026", "url": "https://www.garda.ie/en/about-us/our-departments/office-of-corporate-communications/press-releases/2026/october/15-10-2026-update-statement-an-garda-siochana-x-accounts.html", "kind": "official"},
-    {"label": "The Irish Times, Oct 15, 2026 (updated Oct 16)", "url": "https://www.irishtimes.com/crime-law/2026/10/15/garda-social-media-accounts-posting-about-cryptocurrency-after-apparent-hack/", "kind": "third-party"},
-    {"label": "Extra.ie, Oct 14, 2026 (reports Xaman branding and fake XRP 'allocation' posts)", "url": "https://extra.ie/2026/10/14/news/official-garda-x-account-hacked", "kind": "third-party"}
+    {
+     "label": "Garda statement, Oct 15, 2026",
+     "url": "https://www.garda.ie/en/about-us/our-departments/office-of-corporate-communications/press-releases/2026/october/15-10-2026-statement-an-garda-siochana-x-accounts.html",
+     "kind": "official"
+    },
+    {
+     "label": "Garda update statement, Oct 15, 2026",
+     "url": "https://www.garda.ie/en/about-us/our-departments/office-of-corporate-communications/press-releases/2026/october/15-10-2026-update-statement-an-garda-siochana-x-accounts.html",
+     "kind": "official"
+    },
+    {
+     "label": "The Irish Times, Oct 15, 2026 (updated Oct 16)",
+     "url": "https://www.irishtimes.com/crime-law/2026/10/15/garda-social-media-accounts-posting-about-cryptocurrency-after-apparent-hack/",
+     "kind": "third-party"
+    },
+    {
+     "label": "Extra.ie, Oct 14, 2026 (reports Xaman branding and fake XRP 'allocation' posts)",
+     "url": "https://extra.ie/2026/10/14/news/official-garda-x-account-hacked",
+     "kind": "third-party"
+    }
    ]
   },
   {
@@ -21,8 +54,16 @@
    "summary": "RippleX posted that Ripple is not running an \"XRP Rewards Scanner\" or offering unclaimed XRP through a wallet scan, and that screenshots claiming otherwise are fake.",
    "lesson": "\"Scan your wallet for unclaimed XRP\" is a scam pattern. Never share your secret key or recovery phrase, and review every transaction before signing.",
    "sources": [
-    {"label": "RippleX on X, Aug 6, 2026", "url": "https://x.com/RippleXDev/status/2085402578922160445", "kind": "official"},
-    {"label": "Ripple: how to identify crypto scams", "url": "https://ripple.com/how-to-identify-crypto-scams/", "kind": "official"}
+    {
+     "label": "RippleX on X, Aug 6, 2026",
+     "url": "https://x.com/RippleXDev/status/2085402578922160445",
+     "kind": "official"
+    },
+    {
+     "label": "Ripple: how to identify crypto scams",
+     "url": "https://ripple.com/how-to-identify-crypto-scams/",
+     "kind": "official"
+    }
    ]
   },
   {
@@ -31,7 +72,11 @@
    "summary": "Xaman Wallet warned of an ongoing scam wave against XRP holders: it will never DM you, never email you, and never issue a token or an airdrop. Its support exists only inside the Xaman app.",
    "lesson": "Any \"Xaman airdrop\" or Xaman \"support\" outside the app is fake.",
    "sources": [
-    {"label": "Xaman Wallet on X, Aug 2, 2026", "url": "https://x.com/XamanWallet/status/2083998460135514497", "kind": "official"}
+    {
+     "label": "Xaman Wallet on X, Aug 2, 2026",
+     "url": "https://x.com/XamanWallet/status/2083998460135514497",
+     "kind": "official"
+    }
    ]
   }
  ]
