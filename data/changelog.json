@@ -1,0 +1,14 @@
+{
+ "version": 1,
+ "note": "Public record of changes to drop verdicts, statuses, claim domains and safety notes. Reconstructed from the repository history for 2026-10-15 and 2026-10-16; each entry names the commit that made it.",
+ "entries": [
+  {"date": "2026-10-16", "slug": "pharos-pros", "field": "KYC and gas labels", "from": "(official FAQ)", "to": "(self-published FAQ, unconfirmed domain)", "why": "The FAQ lives on claim.pharos.xyz, which Pharos's official X and main site don't confirm.", "commit": "e7a5810"},
+  {"date": "2026-10-16", "slug": "pharos-pros", "field": "Risk reasons", "from": "Named a lookalike domain", "to": "Lookalikes reported by third parties, not named", "why": "We only name fake domains the project itself has confirmed. Pharos hasn't named any.", "commit": "be2db9a"},
+  {"date": "2026-10-15", "slug": "midnight-night", "field": "Verdict", "from": "Do it", "to": "Maybe", "why": "Verified tick held back until we can re-check the official Midnight guide directly; claim domain marked unverified until then.", "commit": "14699ad"},
+  {"date": "2026-10-15", "slug": "ink-ink", "field": "Claim domain", "from": "kraken.com/drops", "to": "kraken.com", "why": "Claim domains are stored as bare hostnames.", "commit": "b1037c9"},
+  {"date": "2026-10-15", "slug": "push-chain-pc", "field": "Status", "from": "Confirmed (10% of supply to airdrops)", "to": "Proposed: tokenomics proposes 10% of supply for airdrops", "why": "The official source describes a proposal, not a confirmed airdrop.", "commit": "b232928"},
+  {"date": "2026-10-15", "slug": "infinifi-infi", "field": "Status", "from": "Community airdrop confirmed in tokenomics", "to": "Airdrop Unknown", "why": "Not confirmed on an official page we could check.", "commit": "b232928"},
+  {"date": "2026-10-15", "slug": "polymarket-poly", "field": "Verdict", "from": "(none)", "to": "Skip", "why": "Official help center: no token or airdrop announced.", "commit": "b232928"},
+  {"date": "2026-10-15", "slug": "mint-mntd", "field": "Official link", "from": "getminted.io/whitepaper", "to": "mint.io", "why": "mint.io is the website listed on MINT's verified X account @PlayOnMint.", "commit": "9adb8c3"}
+ ]
+}
