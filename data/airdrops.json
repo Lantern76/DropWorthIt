@@ -45,7 +45,9 @@
   "thirdParty": [
    "https://www.bitrue.com/blog/best-airdrop-october",
    "https://www.coingabbar.com/en/pharos-airdrop-claim-deadline-eligibility-pros-token-update"
-  ]
+  ],
+  "type": "claim-only",
+  "costTier": "free"
  },
  {
   "slug": "pheasant-network-pnt",
@@ -92,7 +94,9 @@
   "verdictReason": "If you were in the snapshot: free claim on a confirmed domain, closes Oct 27.",
   "thirdParty": [
    "https://www.bitrue.com/blog/best-airdrop-october"
-  ]
+  ],
+  "type": "claim-only",
+  "costTier": "free"
  },
  {
   "slug": "grass-stage-2",
@@ -139,7 +143,9 @@
   "thirdParty": [
    "https://www.bitrue.com/blog/best-airdrop-october",
    "https://peoplelikecrypto.com/airdrops/"
-  ]
+  ],
+  "type": "claim-only",
+  "costTier": "free"
  },
  {
   "slug": "midnight-night",
@@ -186,7 +192,9 @@
   "thirdParty": [
    "https://peoplelikecrypto.com/airdrops/"
   ],
-  "verifyNote": "details from the official guide via indirect read; awaiting direct check on midnight.network"
+  "verifyNote": "details from the official guide via indirect read; awaiting direct check on midnight.network",
+  "type": "claim-only",
+  "costTier": "free"
  },
  {
   "slug": "brownian-bro",
@@ -232,7 +240,9 @@
   "verdictReason": "Requires leveraged perps trading; conversion method unpublished.",
   "thirdParty": [
    "https://peoplelikecrypto.com/airdrops/"
-  ]
+  ],
+  "type": "deposit-or-trade",
+  "costTier": "money-at-risk"
  },
  {
   "slug": "push-chain-pc",
@@ -278,7 +288,9 @@
   "verdictReason": "Free testnet quests, but the airdrop share is only proposed and there is no TGE date.",
   "thirdParty": [
    "https://peoplelikecrypto.com/airdrops/"
-  ]
+  ],
+  "type": "tasks",
+  "costTier": "free"
  },
  {
   "slug": "infinifi-infi",
@@ -327,7 +339,9 @@
   "thirdParty": [
    "https://peoplelikecrypto.com/airdrops/",
    "https://www.kucoin.com/news/flash/infinifi-reveals-infi-tokenomics-with-45-allocated-to-ecosystem"
-  ]
+  ],
+  "type": "deposit-or-trade",
+  "costTier": "money-at-risk"
  },
  {
   "slug": "ink-ink",
@@ -373,7 +387,9 @@
   "verdictReason": "Needs a verified (KYC) Kraken account; rules and dates not published.",
   "thirdParty": [
    "https://peoplelikecrypto.com/airdrops/"
-  ]
+  ],
+  "type": "watch-only",
+  "costTier": "unknown"
  },
  {
   "slug": "jumper-jump",
@@ -419,7 +435,9 @@
   "thirdParty": [
    "https://www.bitrue.com/blog/best-airdrop-october",
    "https://www.globenewswire.com/news-release/2026/09/26/3369413/0/en/jumper-to-launch-jump-token-sale-on-legion-as-it-spins-out-to-build-the-super-app-for-onchain-finance.html"
-  ]
+  ],
+  "type": "watch-only",
+  "costTier": "unknown"
  },
  {
   "slug": "polymarket-poly",
@@ -464,7 +482,9 @@
   "verdictReason": "Official help center says no token or airdrop has been announced.",
   "thirdParty": [
    "https://www.bitrue.com/blog/best-airdrop-october"
-  ]
+  ],
+  "type": "watch-only",
+  "costTier": "unknown"
  },
  {
   "slug": "mint-mntd",
@@ -511,7 +531,9 @@
   "verdictReason": "Requires gambling with real money to earn XP.",
   "thirdParty": [
    "https://www.bitrue.com/blog/best-airdrop-october"
-  ]
+  ],
+  "type": "deposit-or-trade",
+  "costTier": "money-at-risk"
  },
  {
   "slug": "hyperlynx-lynx",
@@ -557,6 +579,8 @@
   "verdictReason": "Allocation confirmed, but costs and claim domain unknown.",
   "thirdParty": [
    "https://airdropbuzz.com/article/confirmed-crypto-airdrops-october-2026"
-  ]
+  ],
+  "type": "tasks",
+  "costTier": "unknown"
  }
 ]
