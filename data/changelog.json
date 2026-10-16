@@ -2,7 +2,7 @@
  "version": 1,
  "note": "Public record of changes to drop verdicts, statuses, claim domains and safety notes. Reconstructed from the repository history for 2026-10-15 and 2026-10-16; each entry names the commit that made it.",
  "entries": [
-  {"date": "2026-10-16", "slug": "treehouse-tree-s2", "field": "Listing", "from": "(not listed)", "to": "Added: Do it, claim live until Nov 25", "why": "Claim URL, window, eligibility and vesting confirmed in Treehouse's official docs.", "commit": "a48f98d"},
+  {"date": "2026-10-16", "slug": "treehouse-tree-s2", "field": "Listing", "from": "(not listed)", "to": "Added: Do it, claim live until Nov 25", "why": "Claim URL, window, eligibility and vesting confirmed in Treehouse's official docs.", "commit": "74ed4f8"},
   {"date": "2026-10-16", "slug": "doppler-xdp-genesis", "field": "Listing", "from": "(not listed)", "to": "Added: Do it, claim live until Nov 28", "why": "Claim page, deadline and eligibility confirmed on Doppler's official site, blog and claim page.", "commit": "f3f7ce5"},
   {"date": "2026-10-16", "slug": "meteora-met-s2", "field": "Listing", "from": "(not listed)", "to": "Added: Do it, claim live until Oct 21", "why": "Season 2 claim confirmed on Meteora's official X, forum and Campaigns page.", "commit": "8561d47"},
   {"date": "2026-10-16", "slug": "pharos-pros", "field": "KYC and gas labels", "from": "(official FAQ)", "to": "(self-published FAQ, unconfirmed domain)", "why": "The FAQ lives on claim.pharos.xyz, which Pharos's official X and main site don't confirm.", "commit": "e7a5810"},
