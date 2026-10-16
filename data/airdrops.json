@@ -727,5 +727,53 @@
   "thirdParty": [],
   "type": "claim-only",
   "costTier": "free"
+ },
+ {
+  "slug": "lombard-bard-s3",
+  "project": "Lombard",
+  "token": "BARD Season 3",
+  "chains": [
+   "Ethereum"
+  ],
+  "status": "Claim live",
+  "cost": "Free to claim (if eligible); Ethereum gas needed for the claim transaction",
+  "gas": "Unknown amount; you sign a claim transaction on Ethereum mainnet (official docs)",
+  "kyc": "Unknown",
+  "time": "~5 min (claim only)",
+  "risk": "low",
+  "riskReasons": [
+   "Claim site, window and eligibility are on Lombard's official docs",
+   "Deadline Oct 28, 2026, 7:00 PM CDT (Oct 29, 00:00 UTC); unclaimed BARD goes to the Ecosystem Fund and can't be recovered",
+   "The Ethereum address you claim to can't be changed: don't use an exchange deposit address",
+   "Solana and Sui users must connect an Ethereum wallet too, since BARD exists only on Ethereum"
+  ],
+  "steps": [
+   "Type claim.lombard.finance yourself",
+   "Connect the wallet you used for Lombard activity (plus an Ethereum wallet if you earned Lux on Solana or Sui)",
+   "Agree to the terms and sign the claim before Oct 28, 2026, 7:00 PM CDT (Oct 29, 00:00 UTC)"
+  ],
+  "verified": "2026-10-16",
+  "deadlineUTC": "2026-10-29T00:00:00Z",
+  "deadlineDate": null,
+  "officialSite": "https://www.lombard.finance/",
+  "officialX": "https://x.com/Lombard_Finance",
+  "claimDomain": "claim.lombard.finance",
+  "claimVerified": true,
+  "outcome": "Unknown",
+  "sponsored": false,
+  "deadlineNote": "Season 3 claims opened July 27, 2026 and close Oct 29, 2026, 00:00 UTC; unclaimed tokens return to the Ecosystem Fund",
+  "claimNote": "claim.lombard.finance is named in Lombard's official docs, on Lombard's own domain",
+  "eligibility": "Addresses with at least 5,000 Season 3 Lux (referral Lux included) at the July 20, 2026 snapshot; sanctioned addresses and smart-contract addresses are excluded",
+  "src": {
+   "deadline": "https://docs.lombard.finance/use/bard",
+   "claim": "https://docs.lombard.finance/use/bard",
+   "eligibility": "https://docs.lombard.finance/use/bard",
+   "gas": "https://docs.lombard.finance/use/bard"
+  },
+  "verdict": "Do it",
+  "verdictReason": "Free claim if you held at least 5,000 Season 3 Lux; claim site and deadline confirmed in Lombard's docs.",
+  "thirdParty": [],
+  "type": "claim-only",
+  "costTier": "free"
  }
 ]
