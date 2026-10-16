@@ -886,8 +886,8 @@
   "time": "~5 min (claim only)",
   "risk": "low",
   "riskReasons": [
+   "Only for wallets with a verified loss in the April 1, 2026 incident: this is a recovery claim for that loss, not a reward",
    "Claim site, window and eligibility are in Drift's official update, on Drift's own domain",
-   "Only for wallets with a verified loss in the April 1, 2026 incident; this is a recovery claim, not a reward",
    "DFX redeems for USDT from a recovery pool at a rate that changes daily; it is not 1 USDT per DFX",
    "Deadline Dec 31, 2027, 6:00 PM CST (Jan 1, 2028, 00:00 UTC); unclaimed DFX is burned"
   ],
@@ -915,9 +915,11 @@
    "gas": "https://www.drift.trade/updates/dfx-claim-and-redemptions"
   },
   "verdict": "Do it",
-  "verdictReason": "If you lost funds in the April 1 incident, claiming is free apart from the SOL fee and confirmed by Drift; what DFX redeems for depends on the recovery pool.",
+  "verdictReason": "Only for wallets with a verified loss in the April 1, 2026 incident. If that's you, claiming is free apart from the SOL fee and confirmed by Drift; what DFX redeems for depends on the recovery pool.",
   "thirdParty": [],
   "type": "claim-only",
-  "costTier": "free"
+  "costTier": "free",
+  "title": "Drift DFX recovery claim",
+  "audience": "Only for wallets with a verified loss in the April 1, 2026 incident"
  }
 ]
