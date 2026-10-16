@@ -18,7 +18,7 @@ main,.topnote{max-width:1040px;margin:auto;padding:12px 16px}
 .num,time,.domain{font-variant-numeric:tabular-nums}
 .domain{font-family:var(--mono);background:var(--paper);padding:2px 8px;border-radius:4px;border:1px solid var(--line);font-size:.92em;color:var(--ink)}
 .badge{display:inline-flex;gap:4px;padding:1px 8px;border-radius:4px;font-weight:600;font-size:.8em;white-space:nowrap;vertical-align:middle}
-.badge.doit{color:var(--doit);border:1px solid var(--doit)}.badge.maybe{color:var(--maybe);border:1px solid var(--maybe)}.badge.skip{color:var(--muted);border:1px solid var(--muted)}
+.badge.doit{color:var(--doit);border:1px solid var(--doit)}.badge.maybe{color:var(--ink);border:1px solid var(--maybe);border-bottom-width:3px}.badge.skip{color:var(--muted);border:1px solid var(--muted)}
 .badge.risk{color:var(--muted);border:1px solid var(--line)}.badge.risk.high{color:var(--danger);border-color:var(--danger)}
 .badge.recheck{color:#8a5f0f;border:1px dashed var(--maybe)}
 .unknown{color:var(--muted);font-style:italic}
