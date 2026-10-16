@@ -791,7 +791,7 @@
   "risk": "med",
   "riskReasons": [
    "Claim window, fee and vesting are on Solstice's official docs",
-   "A claim fee of about $1: check your allocation on the Flares dashboard first, since wallets with less than 1 SLX can't claim",
+   "Claiming costs a fee of about $1 (official docs); wallets with less than 1 SLX can't claim, so check your allocation on the Flares dashboard first",
    "On the 6-month plan, unvested SLX is forfeited if your eligible TVL isn't restored (official docs)",
    "Date-only deadline Jan 10, 2027; no time of day stated"
   ],
@@ -822,7 +822,7 @@
   "verdictReason": "Real claim confirmed in Solstice's docs, but the about-$1 fee may exceed small allocations, and the 6-month plan can forfeit unvested SLX.",
   "thirdParty": [],
   "type": "claim-only",
-  "costTier": "unknown"
+  "costTier": "money-at-risk"
  },
  {
   "slug": "concrete-ct",
@@ -844,7 +844,7 @@
    "Restricted jurisdictions can't claim, and the terms ban VPNs"
   ],
   "steps": [
-   "Type concretefoundation.xyz yourself; concrete.xyz links to it",
+   "Don't use concretefoundation.xyz until Concrete confirms it as the claim site on concrete.xyz or @ConcreteXYZ",
    "Read the Claim Terms, then connect the wallet on the eligibility list",
    "Check the claim period shown in the interface, and confirm the claim on Ethereum"
   ],
@@ -854,20 +854,20 @@
   "officialSite": "https://concrete.xyz/",
   "officialX": "https://x.com/ConcreteXYZ",
   "claimDomain": "concretefoundation.xyz",
-  "claimVerified": true,
+  "claimVerified": false,
   "outcome": "Unknown",
   "sponsored": false,
   "deadlineNote": "Not published; the claim terms say the period and deadline appear in the claim interface",
-  "claimNote": "concretefoundation.xyz is linked from concrete.xyz's own site, and Concrete's claim terms name it as the claim interface",
+  "claimNote": "claim site is off concrete.xyz; named as the claim site only on concretefoundation.xyz itself",
   "eligibility": "Only wallets on Concrete's CT eligibility and allocation list; people in restricted jurisdictions are excluded",
   "src": {
    "deadline": "https://concretefoundation.xyz/claim-terms",
-   "claim": "https://concrete.xyz/",
+   "claim": "https://concretefoundation.xyz/claim-terms",
    "eligibility": "https://concretefoundation.xyz/claim-terms",
    "gas": "https://concretefoundation.xyz/claim-terms"
   },
   "verdict": "Maybe",
-  "verdictReason": "Real claim per Concrete's own terms, but no published deadline and the claim site is off the main domain.",
+  "verdictReason": "Real claim per Concrete's own terms, but the off-domain claim site isn't confirmed on concrete.xyz and no deadline is published.",
   "thirdParty": [],
   "type": "claim-only",
   "costTier": "free"
