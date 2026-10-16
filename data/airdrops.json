@@ -871,5 +871,55 @@
   "thirdParty": [],
   "type": "claim-only",
   "costTier": "free"
+ },
+ {
+  "slug": "drift-dfx",
+  "project": "Drift",
+  "token": "DFX recovery token",
+  "chains": [
+   "Solana"
+  ],
+  "status": "Claim live",
+  "cost": "Free to claim (if you had a verified loss); a small amount of SOL for the network fee",
+  "gas": "A small amount of SOL for the network fee; exact amount not stated (official update)",
+  "kyc": "Unknown",
+  "time": "~5 min (claim only)",
+  "risk": "low",
+  "riskReasons": [
+   "Only for wallets with a verified loss in the April 1, 2026 incident: this is a recovery claim for that loss, not a reward",
+   "Claim site, window and eligibility are in Drift's official update, on Drift's own domain",
+   "DFX redeems for USDT from a recovery pool at a rate that changes daily; it is not 1 USDT per DFX",
+   "Deadline Dec 31, 2027, 6:00 PM CST (Jan 1, 2028, 00:00 UTC); unclaimed DFX is burned"
+  ],
+  "steps": [
+   "Type dfx.drift.trade yourself",
+   "Connect the wallet that controlled your Drift account on April 1, 2026, with a little SOL for the fee",
+   "Agree to the DFX terms and approve the claim before Dec 31, 2027, 6:00 PM CST (Jan 1, 2028, 00:00 UTC)"
+  ],
+  "verified": "2026-10-16",
+  "deadlineUTC": "2028-01-01T00:00:00Z",
+  "deadlineDate": null,
+  "officialSite": "https://www.drift.trade/",
+  "officialX": "https://x.com/DriftProtocol",
+  "claimDomain": "dfx.drift.trade",
+  "claimVerified": true,
+  "outcome": "Unknown",
+  "sponsored": false,
+  "deadlineNote": "Claims opened Oct 1, 2026 and close Jan 1, 2028, 00:00 UTC; unclaimed DFX is permanently burned",
+  "claimNote": "dfx.drift.trade is named as the claim portal in Drift's official update on drift.trade, on Drift's own domain",
+  "eligibility": "Wallets with a verified loss in the April 1, 2026 incident, as fixed in the loss snapshot: 1 DFX per 1 USDT of verified loss; use the wallet that controlled the Drift account on April 1",
+  "src": {
+   "deadline": "https://www.drift.trade/updates/dfx-claim-and-redemptions",
+   "claim": "https://www.drift.trade/updates/dfx-claim-and-redemptions",
+   "eligibility": "https://www.drift.trade/updates/dfx-claim-and-redemptions",
+   "gas": "https://www.drift.trade/updates/dfx-claim-and-redemptions"
+  },
+  "verdict": "Do it",
+  "verdictReason": "Only for wallets with a verified loss in the April 1, 2026 incident. If that's you, claiming is free apart from the SOL fee and confirmed by Drift; what DFX redeems for depends on the recovery pool.",
+  "thirdParty": [],
+  "type": "claim-only",
+  "costTier": "free",
+  "title": "Drift DFX recovery claim",
+  "audience": "Only for wallets with a verified loss in the April 1, 2026 incident"
  }
 ]
