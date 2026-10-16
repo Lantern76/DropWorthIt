@@ -73,3 +73,9 @@ footer{background:var(--slate);color:var(--cream);font-size:13px;margin-top:28px
 .ics{display:inline-block;font-family:var(--mono);font-size:.82rem;color:var(--slate);border:1px dashed var(--line);border-radius:3px;padding:2px 8px;margin-top:4px;text-decoration:none}.ics:hover{text-decoration:underline}
 .fakes{border-left:4px solid var(--danger)}.fakes .dnv{color:#4a1a15}.domain.fake{text-decoration:line-through;color:var(--danger)}
 .week.ends{background:#4a1a15}.week.ends .mini::after{background-image:radial-gradient(circle at 5px 4px,#4a1a15 2.6px,transparent 3px)}
+/* a11y baseline: skip link, focus ring in stamp-teal, reduced motion */
+.skip{position:absolute;left:-9999px;top:0}.skip:focus{left:8px;top:8px;z-index:10;background:var(--card);color:var(--ink);padding:10px 14px;border:2px solid var(--doit);border-radius:4px}
+:focus-visible{outline:3px solid var(--doit);outline-offset:2px}
+header nav{display:flex;gap:18px;flex-wrap:wrap;align-items:center}header nav a{display:inline-block;padding:10px 0;min-height:24px}
+b.dnv{color:var(--danger);font-size:.85em;margin-left:4px}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}

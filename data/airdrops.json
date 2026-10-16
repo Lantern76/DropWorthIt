@@ -15,7 +15,7 @@
   "riskReasons": [
    "Confirmed token, claim-only",
    "Official deadline 2026-10-25; no grace period",
-   "Phishing lookalikes exist (e.g. 'pharros.xyz'): use only claim.pharos.xyz"
+   "Phishing lookalikes of the claim site are reported by third parties (not yet named by Pharos): type claim.pharos.xyz yourself"
   ],
   "steps": [
    "Confirm the claim domain through Pharos's official X (@pharos_network) before visiting it",
