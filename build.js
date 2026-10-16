@@ -14,7 +14,9 @@ if(a.risk!=null&&!['low','med','high'].includes(a.risk))err(a,i,'risk',`must be 
 if(a.verdict!=null&&!Object.hasOwn(V,a.verdict))err(a,i,'verdict',`must be one of ${Object.keys(V).join('|')} (got ${JSON.stringify(a.verdict)})`);
 for(const f of['official','officialSite','officialX'])chkUrl(a,i,f,a[f]);
 for(const f of['sources','thirdParty'])if(a[f]!=null){if(!Array.isArray(a[f]))err(a,i,f,'must be an array');else a[f].forEach((u,j)=>chkUrl(a,i,`${f}[${j}]`,u))}
-if(a.src!=null){if(typeof a.src!=='object'||Array.isArray(a.src))err(a,i,'src','must be an object');else for(const[k,u]of Object.entries(a.src))chkUrl(a,i,`src.${k}`,u)}
+if(a.src!=null){if(typeof a.src!=='object'||Array.isArray(a.src))err(a,i,'src','must be an object');else for(const[k,u]of Object.entries(a.src)){chkUrl(a,i,`src.${k}`,u);
+// Official-source allowlist: an X link in src must be a status post by this drop's own officialX account.
+try{const x=new URL(u),h=x.hostname.replace(/^www\./,'');if(u&&['x.com','twitter.com'].includes(h)){const own=a.officialX?new URL(a.officialX).pathname.split('/')[1].toLowerCase():null,seg=x.pathname.split('/');if(!own||seg[1].toLowerCase()!==own||seg[2]!=='status')err(a,i,`src.${k}`,`X source must be a status post by this drop's officialX account (got ${u})`)}}catch{}}}
 if(a.claimDomain!=null&&(typeof a.claimDomain!=='string'||!/^(?=.{1,253}$)([a-z0-9]([a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z0-9-]{2,63}$/i.test(a.claimDomain)))err(a,i,'claimDomain',`must be a bare hostname, no scheme/path/spaces (got ${JSON.stringify(a.claimDomain)})`);
 // verified may be null/empty (rendered as 'Not yet verified')
 // deadlineUTC = exact instant (null = Unknown); deadlineDate = date-only YYYY-MM-DD (null = none)
